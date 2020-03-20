@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("0 - Quit")
 
 	fmt.Print("Choose one option, please: ")
-	var option int = -1
+	option := -1
 	fmt.Scan(&option)
 	if option == 1 {
 		fmt.Println("Hello, World")
